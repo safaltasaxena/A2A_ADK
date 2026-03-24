@@ -1,0 +1,38 @@
+# 🔒 Environment files
+.env
+*.env
+
+# 🐍 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# 📦 Virtual environment
+venv/
+env/
+
+# 🧪 ADK / logs
+/tmp/
+*.log
+agent.latest.log
+agent.*.log
+
+# ☁️ Cloud / system
+.DS_Store
+Thumbs.db
+
+# 📝 Editor files
+.vscode/
+.idea/
+
+# 📁 Build / cache
+dist/
+build/
+*.egg-info/
+
+# 🔐 Secrets (extra safety)
+*.key
+*.pem
+*.crt
